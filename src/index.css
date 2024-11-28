@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
